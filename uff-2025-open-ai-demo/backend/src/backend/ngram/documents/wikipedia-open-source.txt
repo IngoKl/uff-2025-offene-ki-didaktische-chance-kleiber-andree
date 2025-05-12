@@ -1,0 +1,249 @@
+
+
+WikipediaDie freie Enzyklopädie
+
+Spenden
+Benutzerkonto erstellen
+Anmelden
+
+[Verbergen]
+Das Aussehen der deutschsprachigen Wikipedia hat sich geändert: Das Hauptmenü ist nun links neben dem Logo erreichbar, die eigene Diskussionsseite und Beitragsliste rechts neben dem Link zum Anmelden und die Werkzeugleiste mit Verweisen zu Schwesterprojekten wie Wikimedia Commons rechts neben dem Link zur Versionsgeschichte. Weitere Informationen
+
+Open Source
+
+Artikel
+Diskussion
+Lesen
+Bearbeiten
+Quelltext bearbeiten
+Versionsgeschichte
+
+Werkzeuge
+	
+Dieser Artikel beschreibt das Software-Entwicklungsmodell. Zu dem gleichlautenden Geheimdienstbegriff siehe Open Source Intelligence.
+
+Logo der Open Source Initiative
+Als Open Source (aus englisch open source, wörtlich offene Quelle) wird Software bezeichnet, deren Quelltext öffentlich ist und von Dritten eingesehen, geändert und genutzt werden kann. Open-Source-Software kann unter Einhaltung der Lizenzbedingungen kostenfrei genutzt und verteilt werden.
+
+Software kann sowohl von Einzelpersonen aus altruistischen Motiven zu Open-Source-Software gemacht werden als auch von Organisationen oder Unternehmen, um Entwicklungskosten zu teilen oder Marktanteile zu gewinnen.[1][2] Befähigte Endbenutzer können die Software nach eigenen Bedürfnissen anpassen und eventuell als Abspaltung veröffentlichen, als auch mit „Pull Requests“ Verbesserungen beitragen.
+
+Geschichte
+Open Source hat viele Ursprünge und Vorläufer, beispielsweise die Do-it-yourself-Bewegung, die Hacker-Bewegung der 1960/1970er und die Freie-Software-Bewegung der 1980er Jahre, die der unmittelbare Vorläufer wurde.
+
+Beeinflusst durch den 1997 publizierten Essay Die Kathedrale und der Basar von Eric S. Raymond, entschied Netscape im Jahr 1998, angesichts der wachsenden Dominanz von Microsoft am Browser-Markt, den Quelltext des wirtschaftlich nicht mehr verwertbaren Netscape Navigators freizugeben (aus dieser Freigabe entstand später das Mozilla-Projekt).[3]
+
+Kurz darauf befanden Raymond,[4] der Informatiker Bruce Perens und Tim O’Reilly, Gründer und Vorstand des O’Reilly Verlags, dass die Freie-Software-Gemeinschaft ein besseres Marketing benötige.[5][6] Um diese freie Software als frei von ethischen Werten[7] und geschäftsfreundlich darstellen zu können, wurde beschlossen, einen neuen Marketing-Begriff für Freie Software einzuführen – der Begriff Open Source wurde von da an flächendeckend im Marketing genutzt und war auch der Namensgeber für die von Raymond, Perens und O’Reilly gegründete Open Source Initiative (OSI). Es wurden angepasste Open-Source-Lizenzen geschaffen, die den Bedürfnissen des Open-Source-Umfelds genügen und auch für Wirtschaftsunternehmen attraktiv sein sollten (Permissive licenses). Eine der bekanntesten Lizenzen, die aus diesen Bestrebungen hervorging, ist die Mozilla Public License.
+
+Am 4. Dezember 2024 fand im Deutschen Bundestag eine öffentliche Anhörung des Digitalausschusses zum Thema „Open Source“ statt[8]. Experten vom Fraunhofer-Institut, der Apache Software Foundation, der Open Source Business Alliance, der Sovereign Tech Agency, des Bundesverbands IT-Mittelstand, des Innovationsverbund öffentliche Gesundheit, der TU-München und der Free Software Foundation Europe gaben im Vorfeld Stellungnahmen ab.[9][10][11] Der Mehrheit der Experten zufolge ist das Engagement der aktuellen Bundesregierung hinter den Erwartungen zurückgeblieben.
+
+Definition
+Definition der Open Source Initiative
+→ Hauptartikel: Open Source Initiative
+Die Open Source Initiative (OSI) wendet den Begriff Open Source auf all die Software an, deren Lizenzverträge den folgenden drei charakteristischen Merkmalen entsprechen und die zehn Punkte der Open Source Definition erfüllen:[12]
+
+Die Software (d.h. der Quelltext) liegt in einer für den Menschen lesbaren und verständlichen Form vor: In der Regel handelt es sich bei dieser Form um die Quelltexte in einer höheren Programmiersprache. Vor dem eigentlichen Programmlauf oder Programmablauf ist es normalerweise notwendig, diesen Text durch einen Compiler in eine binäre Form zu bringen, damit das Computerprogramm vom Rechner ausgeführt werden kann. Binärprogramme sind für den Menschen im semantischen Sinne praktisch nicht lesbar.
+Die Software darf beliebig kopiert, verbreitet und genutzt werden: Für Open-Source-Software gibt es keine Nutzungsbeschränkungen, weder bezüglich der Anzahl der Benutzer noch bezüglich der Anzahl der Installationen. Mit der Vervielfältigung und der Verbreitung von Open-Source-Software sind auch keine Zahlungsverpflichtungen gegen einen Lizenzgeber verbunden. Es wird typischerweise nur die Weitergabe des Quelltextes gefordert.
+Die Software darf verändert und in der veränderten Form weitergegeben werden: Durch den offengelegten Quelltext ist Verändern ohne weiteren Aufwand für jeden möglich. Weitergabe der Software soll ohne Lizenzgebühren möglich sein. Open-Source-Software ist auf die aktive Beteiligung der Anwender an der Entwicklung geradezu angewiesen. So bietet sich Open-Source-Software zum Lernen, Mitmachen und Verbessern an.
+Open-Source bedeutet jedoch nicht, wie häufig angenommen, alles-ist-erlaubt; es sind Bedingungen an die Nutzung geknüpft. Völlig bedingungslose Nutzung existiert typischerweise nur bei gemeinfreier Software. Der erste BITKOM-Leifaden zum Thema Open-Source-Software gibt folgende korrekte Beschreibung: „Die Verwertung, Vervielfältigung und Bearbeitung ist nicht vorbehaltlos gestattet, denn bei der Open Source Software wird vielfach die Einräumung von Nutzungsrechten von bestimmten Voraussetzungen abhängig gemacht. In dieser Weise kann Open Source Software abgegrenzt werden von Public Domain Software […]. Bei der Public Domain Software ist dem Nutzer die Vervielfältigung, Verbreitung und Veränderung uneingeschränkt und vorbehaltlos erlaubt.“[13]
+
+Open-Source-Software (OSS) hat in der Praxis große Überschneidungen mit Freier Software, wie sie die FSF definiert.[14][15] Beide Konzepte haben gemeinsam, dass der Quellcode von Software für Anwender verfügbar sein sollte. Es werden auch die gleichen Copyleft- und Freizügige-Softwarelizenzen, bis auf seltene Ausnahmen, von beiden Seiten als „Frei“ bzw. „Offen“ eingeordnet. Der primäre Unterschied liegt in der Terminologie und Sichtweise: Freie Software fokussiert auf den Aspekt der Nutzerkontrolle über Software und sieht Freie Software als wichtiges soziales, politisches und ethisches Anliegen.[16] Die OSI vertritt die Sichtweise, dass der praktische Nutzen für die Allgemeinheit (Nutzer, Gesellschaft, Firmen etc.) einer frei verfügbaren Softwareinfrastruktur, eines freien Softwaremarktes und einer kollaborativen Entwicklungsmethode der entscheidende Aspekt sind.[12][17][18]
+
+Weitergehende Definitionen
+
+Open Source, abgeleitete “Open”-Konzepte und assoziierte Eigenschaften: Offenheit, Transparenz, gemeinschaftliche Zusammenarbeit
+
+Open-Educational-Resources-Logo
+
+Open-Source-Hardware-Logo
+
+Vores Øl – An Open Source Beer
+
+Open Access
+Der Begriff Open Source beschränkt sich nicht ausschließlich auf Software, sondern wird auch auf Wissen und Information allgemein ausgedehnt. Darüber hat die Freie-Software-Bewegung in anderen Bereichen die Begründung vieler neuer „Open“-Bewegungen inspiriert, beispielsweise Open Content, Open-Source-Hardware und Open Access.
+
+Ein Beispiel dafür ist Wikipedia und die Wikimedia Commons, in deren Zusammenhang von freien Inhalten (Open Content) gesprochen wird. Weitere bedeutende Beispiele für Open Content sind OpenStreetMap und Open Educational Resources. Eine Lizenzfamilie, die für solche freien Inhalte („free cultural works“) geschaffen wurde, sind die Creative Commons Lizenzen.
+
+Übertragen wurde die Idee des öffentlichen und freien Zugangs zu Information auch auf Entwicklungsprojekte. In diesem Zusammenhang wird oft von freier Hardware (Open Hardware) gesprochen, also freiem Zugang zu allen Informationen (Offener Standard, Offenes Format), um eine entsprechende Hardware herzustellen. Produktbeispiele auf Basis von offenen Standards und Rezepturen sind Vores Øl/Free Beer oder OpenCola.
+
+Auch als „Offen“ und der Open-Source- und Open-Hardware-Bewegung nahestehend verstehen sich die FabLabs, die freien Zugang zur (Produktions-)Hardware vermitteln wollen.
+
+Ein weiteres Beispiel ist die Open-Source Saatgut Lizenz, die das Prinzip auf die Pflanzenzüchtung zu übertragen versucht. Gemeinnützige Züchter können neue Sorten mit der viralen Lizenz (Copyleft) ausstatten, damit sich das genetische Material nicht mehr in ein Privatgut überführen lässt.[19][20]
+
+Open Access (englisch für offener Zugang) versucht, den freien Zugang zu wissenschaftlicher Literatur und anderen Materialien im Internet zu ermöglichen und Paywalls abzubauen. Ähnlich versucht Open Government, den Zugang zu Regierungsressourcen für Bürger zu erleichtern.
+
+Definitionskonflikt mit „Freier Software“
+Die Begriffe Open-Source-Software und Freie Software werden zwar häufig synonym verwendet, allerdings besteht die Möglichkeit einer unterschiedlich pointierten Interpretation. Obwohl sich in der eigentlichen Bedeutung die Open-Source-Definition kaum von freier Software unterscheidet, können beide Begrifflichkeiten bewusst verwendet werden, um unterschiedliche Assoziationen auszulösen. Der Begriff open source wurde eingeführt, nachdem die ursprüngliche Bezeichnung free software (freie Software) zu Irritationen führte, da sie oft als grundsätzlich kostenlose Software missverstanden wurde.
+
+Der ältere Begriff Freie Software wird bereits seit den 1980ern von der Free Software Foundation (FSF) verwendet. Eine Fehlassoziation von Freier Software mit Freeware war häufig, da im Englischen frei für kostenlos wie auch Freiheit stehen kann[21] und freie Software in den meisten Fällen wirklich auch kostenlos erhältlich ist. Da mit Frei aber wirklich nur Freiheit von der FSF gemeint war, prägte diese den Slogan, „free speech, not free beer“ – „freie Meinungsäußerung, nicht Freibier“, um einer Assoziation von Freier Software mit kostenloser Software entgegenzuwirken.
+
+Die mögliche Fehlinterpretation des zweideutigen Wortes „frei“ war Teil der Motivation für den Terminus Open Source, der ab Ende der 1990er Jahre mit Linux populär wurde.[22] Der Vorschlag kam 1998 von Christine Peterson vom Foresight Institute[18][23] bei der Gründung der OSI und Open-Source-Bewegung. Die frisch gegründete Open-Source-Bewegung entschied sich, Open Source anstelle des bereits existierenden FSF-Terminus Freie Software zu etablieren,[24] da man hoffte, dass die Verwendung der Bezeichnung Open Source die Mehrdeutigkeit des Begriffs „frei“ beseitigt und damit eine bessere Akzeptanz des Open-Source-Konzepts auch bei der Wirtschaft ermöglicht. Außerdem vermied der Begriff Open Source eine Assoziation mit der Free Software Foundation und der GNU General Public License (GPL), die aus wirtschaftlicher Sicht problematisch sein kann.[25][26][27] Der Begriff Open-Source-Software sollte auch eine Überlegenheit des kollaborativen, offenen Entwicklungsprozesses (siehe The Cathedral and the Bazaar von Eric Steven Raymond) hervorheben.
+
+Seit der Einführung der konkurrierenden Bezeichnung Open Source kritisiert die FSF, dass auch diese Bezeichnung Verwirrung stiften kann. Der Begriff Open Source assoziiert die Verfügbarkeit des Quelltextes, sagt aber nichts über die gewährten Verwendungsrechte und Nutzungsfreiheiten aus. Ein Beispiel für eine solche Begriffsverwirrung ist die aktuelle Version des Kryptographieprogramms PGP der PGP Corporation: Diese wird als Open Source angepriesen, da der Quellcode betrachtet werden kann, jedoch unterliegt dieser keiner Open-Source-Lizenz. Weitergabe und Veränderung dieses Quellcodes sind verboten, so dass das Programm nicht unter die Open-Source-Definition fällt. Als Reaktion darauf ist GNU Privacy Guard entstanden, das den Open-Source-Anforderungen durch seine GPL-Lizenzierung gerecht wird.
+
+Umgekehrt wird die von der FSF als „frei“ angesehene GNU FDL[28] als nicht „Open“ und „Frei“ kritisiert. Bei der GNU FDL ist eine problematische Besonderheit, dass sie die Möglichkeit bietet, die Modifikation bestimmter Abschnitte zu verbieten, also das Recht auf freie Weiterverwendung beschränkt. Die GNU FDL erfüllt somit eine grundlegende Anforderung der Open-Source-Definition, der Freie-Software-Definition sowie der Debian Free Software Guidelines für Software nicht.[29]
+
+Um den Konflikt zwischen Freier Software und Open-Source-Software zu umgehen und die Gemeinsamkeiten der Open-Source- und Freie-Software-Bewegung zu betonen,[30] wurden die Begriffe FOSS und FLOSS (Free/Libre and Open Source Software) vorgeschlagen, die auch eine relevante Verbreitung erlangten.
+
+Wirtschaftliche Bedeutung
+→ Hauptartikel: Geschäftsmodelle für Open-Source-Software
+
+Anwendungsgebiete von Open-Source-Software[31] in der Schweiz im Jahr 2015
+Open Source dient häufig als Basis für kommerzielle Software. So wird auf vielen Embedded-Systemen, Heim-Routern, Set-Top-Boxen und Mobiltelefonen das Open-Source-Betriebssystem Linux als Plattform verwendet. Auch das kommerzielle Betriebssystem webOS von HP Palm profitiert von Linux. Da diese Unternehmen von Linux abhängig sind, sind sie auch motiviert, zu seiner Weiterentwicklung beizutragen.
+
+Zudem können Softwareentwicklungsunternehmen für Open-Source-Produkte Support-Dienstleistungen anbieten. Dies ist beispielsweise bei den Betriebssystemen Ubuntu, Red Hat/Fedora und SUSE Linux der Fall. Der Quellcode wird hierbei kostenlos weitergegeben.
+
+Open-Source-Software kann auch durch Freiwillige aus altruistischen (selbstlosen) Motiven entwickelt werden. Größere Projekte schließen sich meist zu einer Stiftung zusammen, die dann durch Spenden finanziert wird.
+
+Quelloffene Software im Öffentlichen Bereich gibt es auf tausenden Rechnern oft schon seit Jahrzehnten.
+
+Nachdem sich Open-Source-Software zunächst in den Bereichen Serverbetriebssysteme, Web- und Mailserver, Datenbanken und Middleware etabliert hatte, konnte Open-Source-Software allgemein in kommerzieller Software eine wichtige Rolle erringen.[32] Eine Studie im Auftrag der Europäischen Kommission hat im Jahr 2006 die wirtschaftliche Bedeutung von Open Source für Europa untersucht.[33] Demnach ist der Marktanteil in den vergangenen Jahren stetig gestiegen. Den Gesamtwert beziffert die Untersuchung auf rund zwölf Milliarden Euro. In den vier Haupt-Einsatzgebieten (Web-Server, Programmiersprachen, Datenbanken und Server-Betriebssysteme) setzen 2015 70 % der Schweizer Nutzer Open-Source-Software ein, das ist ein Wachstum von 20 % gegenüber 2012.[31] Für das Jahr 2010 prognostizierte die Studie bei den IT-Dienstleistungen einen Open-Source-Anteil von 32 Prozent und befürwortet eine stärkere Förderung von freier Software, damit Europa das wirtschaftliche Potenzial von Open Source besser nutzen kann. So findet das Thema zunehmend in der Wirtschaftsförderung Beachtung. Ein Beispiel ist die Wirtschaftsförderung Region Stuttgart, die eine Initiative für einen Open-Source-Cluster gestartet hat.[34]
+
+Open-Source-Software wurde dabei in Unternehmen deutlich häufiger eingesetzt als in Behörden.[31]
+
+Viele Open-Source-Projekte besitzen einen hohen wirtschaftlichen Wert. Gemäß dem Battery Open-Source Software Index (BOSS) vom 22. September 2017 waren damals die wirtschaftlich zehn bedeutendsten Open-Source-Projekte:[35][36]
+
+Rang	Projekt	Leading company	Marktwert in US$
+1	Linux	Red Hat	16 Milliarden
+2	Git	GitHub	2 Milliarden
+3	MySQL	Oracle	1,87 Milliarden
+4	Node.js	NodeSource	?
+5	Docker	Docker	1 Milliarde
+6	Hadoop	Cloudera	3 Milliarden
+7	Elasticsearch	Elastic	700 Millionen
+8	Spark	Databricks	513 Millionen
+9	MongoDB	MongoDB	1,57 Milliarden
+10	Selenium	Sauce Labs	470 Millionen
+Der angegebene Rang basiert dabei auf der Aktivität bezüglich der Projekte in Online-Diskussionen, auf GitHub, bezüglich der Suchaktivität in Suchmaschinen und dem Einfluss auf den Arbeitsmarkt.[36]
+
+Harvard-Forscher Frank Nagle berechnet 2024 in einer Studie, welche Summe Firmen zahlen müssten, wenn es keine freie Software gäbe: 8,8 Billionen Dollar.[37]
+
+Vorteile der Nutzung
+
+Umfrage über die Einsatzgründe von Open Source in 200 Schweizer Organisationen[31]
+Open-Source-Software wird sowohl von Unternehmen wie auch von Einzelpersonen genutzt. Sie bietet eine Reihe von Vorteilen:
+
+An der Entwicklung eines Open-Source-Programms kann sich eine beinahe beliebig große Anzahl von Personen (und Firmen) beteiligen. Der Aufwand für die Entwicklung wird geteilt und jeder kann von der Arbeit der Anderen profitieren. Wenn eine Firma eine Software benötigt und diese nicht Teil des Hauptproduktes ist, kann es sich für sie lohnen, nicht die fertige Software einzukaufen oder eine vollständige Eigenentwicklung zu starten, sondern sich an einem Open-Source-Projekt zu beteiligen und damit Innovationen schneller zu verbreiten.[38]
+Nutzer einer Open-Source-Software sind niemals von einer bestimmten Herstellerfirma abhängig. Wünscht sich ein Nutzer eine Erweiterung oder die Behebung eines Programmfehlers, so steht es ihm frei, diese Änderung vorzunehmen oder jemanden damit zu beauftragen. Bei proprietärer Software ist dies nicht möglich und eine Änderung kann einzig beim Hersteller beantragt werden. Durch diese Unabhängigkeit ist die bei proprietärer Software übliche geplante Obsoleszenz eines Softwareproduktes zu Lasten des Nutzers ausgeschlossen.[39] Auch ist mit Open-Source-Software Interoperabilität (z. B. Datenformate) möglich, während dies mit proprietärer Software häufig durch den Lock-in-Effekt verhindert wird.
+Die Nutzung von Open-Source-Software ist an keine oder nur wenige Bedingungen geknüpft. Die Software darf von einer beliebigen Anzahl Benutzern für einen beliebigen Zweck eingesetzt werden. Bei der Vervielfältigung und Weiterverwendung fallen keine Lizenzkosten an.
+Open-Source-Software ermöglicht Einblick in den Quelltext und über das offene Entwicklungsmodell üblicherweise auch die Versionshistorie. Damit ist es jedermann – beispielsweise unter Verwendung von dafür bestimmten Seiten wie Ohloh – möglich, die Softwarequalität mittels Statischer Code-Analyse sowie die Anzahl der Entwickler und deren Veränderungen zu analysieren und daraus auf die Wartbarkeit und den Reifegrad der Software zu schließen.
+Durch dieses Mehraugenprinzip ist Open-Source-Software stabiler und zuverlässiger.[38] Des Weiteren korreliert ein hoher Grad an Offenheit mit hoher Softwarequalität.[40]
+Prüfbarkeit eines Programmes auf bewusst eingebrachte, Nutzer-ungewollte Mechanismen wie Backdoors, die für politische oder wirtschaftliche Spionagezwecke verwendet werden könnten. Beispielsweise hat Microsoft als Anbieter nicht-quelloffener Software Probleme, immer wiederkehrende Gerüchte[41][42] über NSA-Hintertüren in ihren Betriebssystemen zu widerlegen, da eine Offenlegung des Quelltexts keine Option für Microsoft ist.
+Hinderungsgründe
+Bei der Frage, was die wichtigen Gründe für den Einsatz von Open Source sind, wird klar, dass den Anwendern maximale Flexibilität bei der Gestaltung ihrer IT-Landschaft wichtig ist: Für die große Mehrheit der Antwortenden sind die Einhaltung offener Standards (86 %), Wissensaustausch mit der Community (82 %), Kosteneinsparungen (77 %) und die Verringerung von Lieferantenabhängigkeiten (76 %) die Hauptmotive für den Einsatz von Open Source.[31]
+
+Grundsätze
+Damit die fortwährende Unterstützung von Open-Source-Projekten gewährleistet ist, sind einige Bedingungen notwendig:[31]
+
+Zunächst sollte es eine aktive Community geben, damit das Wissen auf zahlreiche Personen verteilt ist. Ein Beispiel hierfür ist der Linux-Kernel. Gemäß einer Kernel-Development-Studie der Linux Foundation aus dem Jahr 2015 beträgt der Anteil der Intel-Entwickler, die am meisten zum Linux-Kernel beitragen, nur 10,5 %. Selbst wenn sich Intel aus der Linux-Entwicklung zurückziehen sollte, wäre die Weiterentwicklung dennoch sichergestellt. Anders wäre es hingegen, wenn die Entwicklung maßgeblich von einer Einzelperson oder Firma vorangetrieben wird. In diesem Fall wäre zwar der Quellcode der Allgemeinheit zugänglich, doch würde gleichzeitig wichtiges Wissen verloren gehen.[31]
+
+Zudem ist die Zusammenarbeit mit kommerziellen Anbietern wichtig für die Nachhaltigkeit von Open-Source-Projekten. Entwickler, die nicht unentgeltlich an dem Projekt tätig sind, sondern für die Arbeit bezahlt werden, können dem Projekt langfristig mehr Zeit widmen. Beispielsweise sind an der Entwicklung von LibreOffice zahlreiche kleinere Firmen engagiert (etwa Collabora), die zertifizierte Versionen des Programms verkaufen. Gleichzeitig sind die Entwickler bei den Firmen angestellt und entwickeln das Programm hauptberuflich weiter.[31]
+
+Schließlich ist auch noch die Existenz einer Non-Profit-Organisation wichtig, die die Entwicklung koordiniert und Marketing durchführt. Koordination ist wichtig bei der Entwicklung einer Software. Bei proprietärer Software wird diese Aufgabe von dem Eigentümer der Software übernommen. In größeren Open-Source-Projekten (etwa dem Linux-Kernel, LibreOffice oder dem Content-Management-System TYPO3) verbindet eine Non-Profit-Organisation die Entwicklerfirmen und die Softwarenutzer untereinander. Die Non-Profit-Organisation kann die Form einer Stiftung oder eines Vereins haben. Besonders dem Marketing kommt eine wichtige Funktion zu, da in der Softwareindustrie (etwa bei Adobe, Oracle oder Microsoft) doppelt so viel Geld für Verkauf und Werbung ausgegeben wird wie für die eigentliche Softwareentwicklung.[31]
+
+Eric S. Raymond bezeichnet in seinem Buch Die Kathedrale und der Basar eine Entwicklungsmethode, in der Open-Source-Projekte selbstständig ohne eine zentrale Steuerung von der Gemeinschaft verwaltet werden können, als Basar. Ob diese Entwicklungsmethode tatsächlich so Anwendung findet oder überhaupt praktisch umgesetzt werden kann, ist aber umstritten.[43] Beispielsweise folgt der Linux-Kernel, eines der großen OSS-Erfolgsprojekte, mit Linus Torvalds an der Spitze eher einem zentralisierten Entwicklungsmodell mit einem Benevolent Dictator for Life (wohlwollender Diktator auf Lebenszeit) und entspricht der Kathedrale in Raymond’scher Terminologie. Ähnliche Führungsstrukturen sind mit Richard Stallman an der Spitze der FSF/GNU-Projekt und auch bei der Mozilla Foundation[44] zu finden. Als Gegenbeispiele werden die Community getriebenen Projekte Apache Hadoop und OpenStack angeführt.[45]
+
+Kritik und Probleme
+Der Informatiker Niklaus Wirth äußert sich 2009 kritisch zur technischen Qualität komplexer Open-Source-Projekte: Die Open-Source-Bewegung ignoriere und behindere die Vorstellung, komplexe Softwaresysteme basierend auf streng hierarchischen Modulen aufzubauen. Entwickler sollten den Quelltext der von ihnen verwendeten Module nicht kennen. Sie sollten rein auf die Spezifikationen der Schnittstellen der Module vertrauen. Wenn, wie bei Open-Source, der Quelltext der Module vorhanden ist, führe das automatisch zu einer schlechteren Spezifikation der Schnittstellen, da ja das Verhalten der Module im Quelltext nachlesbar ist.[46]
+
+Die FSF,[47][48] und insbesondere deren Gründer Richard Stallman, kritisiert prinzipiell an der Open-Source-Bewegung, dass sie sozialethische Aspekte außen vor lässt und sich lediglich auf technische und wirtschaftliche Fragestellungen konzentriert. So werde die Grundidee von freier Software nach Stallmans Meinung vernachlässigt.[49] Die FSF kritisiert auch die von Teilen[50][51] der Open-Source-Bewegung tolerierte Firmenpraxis, die Weiterentwicklungen von bestehender Open-Source-Software so weit an eigene (Hardware-)Systeme anzupassen, dass sie praktisch nicht mehr anders verwendet werden können, z. B. Tivoisierung oder unlesbar gemachter Quelltext. Die Weiterentwicklung steht dann zwar immer noch unter einer Open-Source-Lizenz, kann von der Gemeinschaft aber nicht mehr genutzt werden,- eine Situation, welche die FSF über die GPLv3 zu verhindern versucht. Silke Helfrich griff die Kritik Stallmans auf und plädierte für die Entwicklung von Mechanismen zum Schutz von Open-Source-Gütern (Peer-Openness), ähnlich dem von Commons durch Commoning.[52]
+
+Das Ideal des Open Source, der freie Austausch und die beliebige Weiterverwendung von Quelltext, ist in der Realität durch u. a. Lizenzprobleme eingeschränkt. Besonders problematisch ist dies durch die inzwischen auf eine kaum überschaubare Anzahl angewachsene (und weiter wachsende) Menge an Softwarelizenzen und Versionsvarianten, ein als License proliferation bekanntes Problem.[53][54][55] Auch anerkannte Open-Source-Lizenzen sind häufig nicht miteinander kompatibel, was damit eine Software-Weiterverwendung in manchen Kontexten verhindert.[56][57][58] Des wegen wird dazu geraten, keine selbst erstellten oder exotischen Open-Source-Lizenzen zu verwenden, deren rechtliche und praktische Probleme man unter Umständen nicht überschaut, sondern auf eine erprobte, anerkannte und weitverbreitete freie Lizenz (und Lizenzkombinationen) wie die GPL, die LGPL oder die BSD-Lizenz zurückzugreifen. Besonders die Freizügigen Lizenzen zeichnen sich durch eine sehr gute Lizenzkompatibilität aus.[59][60]
+
+Siehe auch
+Linux-Klausel
+Wissensgesellschaft bzw. Informationsgesellschaft
+Open-Source-Software in öffentlichen Einrichtungen
+Digitale Nachhaltigkeit
+Open-Source-Film
+Liste quelloffener Computerspiele
+Open-Source-Marketing
+Bitcoin (Open-Source-Währung)
+Portal: Freie Software – Übersicht zu Wikipedia-Inhalten zum Thema Freie Software
+Literatur
+Paulina Dobroć: Open Source, Open Government, Blockchain. Eine kultursemiotische Studie zur Openness-Vision. Oekom Science, München 2023, ISBN 978-3-987260568.
+Nadia Eghbal: Working in Public: The Making and Maintenance of Open Source Software. Stripe Press, 2020, ISBN 978-0-5786-75862
+Dominik König: Das einfache, unentgeltliche Nutzungsrecht für jedermann. Vandenhoeck & Ruprecht, Göttingen 2016, ISBN 978-3-8471-0610-4.
+Sabine Nuss: Open Source. In: Ulrich Brand (Hrsg.): ABC der Alternativen 2.0. VSA: Verlag, Berlin / Hamburg 2012, ISBN 978-3-89965-500-1, S. 194/195 (vsa-verlag.de [PDF]).
+Siehe auch Literatur über Freie und Open-Source-Software.
+Weblinks
+Wiktionary: quelloffen – Bedeutungserklärungen, Wortherkunft, Synonyme, Übersetzungen
+Wiktionary: open source – Bedeutungserklärungen, Wortherkunft, Synonyme, Übersetzungen (englisch)
+Wikibooks: Open Source im Unternehmen – Lern- und Lehrmaterialien
+Dossier Open Source. Bundeszentrale für politische Bildung
+Linkkatalog zum Thema Open Source bei curlie.org (ehemals DMOZ)
+Open-Source Documentation Guide (engl.) von #ASKnet
+Irene Bertschek, Thomas Döbler (Hrsg.): Open Source Software und IT-Sicherheit: Unternehmensbefragung Frühjahr 2005 in Baden-Württemberg. (PDF; 727 kB) (= FAZIT-Schriftenreihe Forschungsbericht / Band 1), Juli 2005, archiviert vom Original am 4. Juni 2012.
+
+
+Einzelnachweise und Anmerkungen
+ John Koenig: Seven Open SourceBusiness Strategies for Competitive Advantage. (PDF) In: riseforth.com. Archiviert vom Original (nicht mehr online verfügbar) am 12. Januar 2017; abgerufen am 29. April 2017 (englisch).
+ Nadia Eghbal: Working in Public: The Making and Maintenance of Open Source Software. Stripe Press, 2020, ISBN 978-0-578-67586-2.
+ Netscape celebrates first anniversary of open source software release to mozilla.org. Netscape Communications, 31. März 1999, archiviert vom Original am 6. Juni 2013; abgerufen am 6. März 2020 (englisch): „[…] The organization that manages open source developers working on the next generation of Netscape’s browser and communication software. This event marked a historical milestone for the Internet as Netscape became the first major commercial software company to open its source code, a trend that has since been followed by several other corporations. Since the code was first published on the Internet, thousands of individuals and organizations have downloaded it and made hundreds of contributions to the software. Mozilla.org is now celebrating this one year anniversary with a party Thursday night in San Francisco.“
+ Eric S. Raymond: Goodbye, “free software”; hello, “open source”. 8. Februar 1998, abgerufen am 13. August 2008 (englisch): „After the Netscape announcement broke in January I did a lot of thinking about the next phase – the serious push to get ‘free software’ accepted in the mainstream corporate world. And I realized we have a serious problem with ‘free software’ itself. Specifically, we have a problem with the term ‘free software’, itself, not the concept. I’ve become convinced that the term has to go.“
+ History of OSI. opensource.org, abgerufen am 11. Februar 2016 (englisch): „conferees decided it was time to dump the moralizing and confrontational attitude that had been associated with ‘free software’ in the past and sell the idea strictly on the same pragmatic, business-case grounds“
+ Evgeny Morozov: The Meme Hustler – Tim O’Reilly’s crazy talk. thebaffler.com, 4. April 2013, abgerufen am 14. Juli 2013 (englisch): „In those early days, the messaging around open source occasionally bordered on propaganda. As Raymond himself put it in 1999, ‘what we needed to mount was in effect a marketing campaign’, one that ‘would require marketing techniques (spin, image-building, and re-branding) to make it work’.“
+ gnu.org. In: gnu.org. Abgerufen am 10. November 2016.
+ LBR: Experten betonen Chancen von Open Source in der Verwaltung. Digitales — Anhörung — hib 848/2024. In: bundestag.de. Deutscher Bundestag, 5. Dezember 2024, abgerufen am 9. Dezember 2024.
+ Deutscher Bundestag – Anhörung zum Thema 'Open Source'. In: bundestag.de. Deutscher Bundestag, abgerufen am 9. Dezember 2024.
+ Esther Menhard: Open Source: „Ohne läuft nichts“. In: netzpolitik.org. 4. Dezember 2024, abgerufen am 19. Dezember 2024.
+ Marie-Claire Koch: Open-Source-Software: Deutschland muss raus aus der Abhängigkeit. In: heise online. 5. Dezember 2024, abgerufen am 19. Dezember 2024.
+ The Open Source Definition. In: Open Source Initiative. Opensource.org, abgerufen am 10. Juli 2013 (englisch).
+ bitkom.org (PDF; 590 kB)
+ What is „free software“ and is it the same as „open source“? Open Source Initiative FAQ
+ Open source Kategorien freier und unfreier Software (gnu.org)
+ Warum Open Source das Ziel von Freie Software verfehlt, gnu.org
+ Mission of the Open Source Initiative “The promise of open source is better quality, higher reliability, more flexibility, lower cost, and an end to predatory vendor lock-in.” auf opensource.org (englisch)
+ History of the Open Source Initiative
+ Silke Helfrich: Bio-Linux oder: Saatgut als Commons. In: CommonsBlog. 14. April 2017, abgerufen am 3. Juli 2017.
+ Neue Tomatensorte: Angriff der Saat-Piraten. In: Spiegel Online – Wissenschaft. Abgerufen am 3. Juli 2017.
+ free-software
+ For the love of Hacking auf forbes.com
+ Technology In Government, 1/e. Jaijit Bhattacharya, 2006, ISBN 978-81-903397-4-2, S. 25 (englisch, google.com).
+ Why ‘Free Software’ Is Too Ambiguous (Memento vom 13. Oktober 1999 im Internet Archive) opensource.org
+ GNU General Public License Version 3, 29 June 2007 – Conveying Non-Source Forms. gnu.org, 29. Juni 2007, abgerufen am 17. Juni 2015 (englisch): „(1) a copy of the Corresponding Source for all the software in the product that is covered by this License, on a durable physical medium customarily used for software interchange, for a price no more than your reasonable cost of physically performing this conveying of source, or (2) access to copy the Corresponding Source from a network server at no charge.“
+ Freie Software verkaufen. gnu.org, 17. Juni 2015, abgerufen am 17. Juni 2015: „Hohe oder niedrige Preise und die GNU GPL – […] die GNU GPL verpflichtet, den Quellcode auf weitere Anfrage bereitzustellen. Ohne eine Begrenzung des Preises für den Quellcode wäre es ihnen möglich einen Preis festzulegen, der für jedermann zu hoch zu bezahlen wäre – wie eine Milliarde Euro – und somit vorgeben den Quellcode freizugeben, obwohl sie ihn in Wahrheit verbergen. Darum müssen wir in diesem Fall den Preis für den Quellcode begrenzen, um die Freiheit der Nutzer zu gewährleisten.“
+ Marco Fioretti: Is it legal to sell GPL software? “Please note that ‘as much as you wish’ only applies to the executable form of the software, not its source code.” Techrepublic.com, 19. November 2013 (englisch)
+ „Freie Dokumentationslizenzen“ Stand: 2012
+ Allgemeiner Beschluss: Warum die »GNU Free Documentation License« nicht für Debian-Main geeignet ist auf debian.org (2006)
+ FLOSS and FOSS on gnu.org (englisch)
+ Open Source Studie Schweiz 2015. (PDF) In: oss-studie.ch. swissICT und Swiss Open Systems User Group /ch/open, 3. Juni 2015, abgerufen am 6. März 2020 (Schweizer Hochdeutsch).
+ Best Practices for commercial use of open source software. Karl Michael Popp, 2015, ISBN 978-3-7386-1909-6 (englisch).
+ Study on the: Economic impact of open source software on innovation and the competitiveness of the Information and Communication Technologies (ICT) sector in the EU (PDF; 1,8 MB) – englischsprachige Studie zur wirtschaftlichen Bedeutung
+ Initiative für einen Open-Source-Cluster
+ Joe McCann: The Meteoric Rise Of Open Source And Why Investors Should Care. In: Forbes. (forbes.com [abgerufen am 10. Oktober 2017]).
+ Dharmesh Thakker: Tracking the explosive growth of open-source software. In: TechCrunch. (techcrunch.com [abgerufen am 10. Oktober 2017]).
+ heise online: Studie: Open Source trägt global 8,8 Billionen Dollar zur Wirtschaftskraft bei. 13. Februar 2024, abgerufen am 14. Februar 2024.
+ Kevin Crowston, Kangning Wei, James Howison, Andrea Wiggins: Free/Libre open-source software development: What we know and what we do not know. Hrsg.: ACM. Band 44, Nr. 2. ACM Computing Surveys, ISSN 0360-0300, S. 7:13, doi:10.1145/2089125.2089127 (englisch): “For example, Bonaccorsi and Rossi [2006] found that firms are motivated to be involved with FLOSS because it allows smaller firms to innovate, because “many eyes” assist them in software development, and because of the quality and reliability of FLOSS, with the ideological fight for free software at the bottom of the list.”
+ Fernando Cassia: Open Source, the only weapon against „planned obsolescence“. theinquirer.net, 28. März 2007, archiviert vom Original am 20. Januar 2011; abgerufen am 15. Januar 2012 (englisch).
+ Kevin Crowston, Kangning Wei, James Howison, Andrea Wiggins: Free/Libre open-source software development: What we know and what we do not know. Hrsg.: ACM. Band 44, Nr. 2. ACM Computing Surveys, ISSN 0360-0300, S. 7:23, doi:10.1145/2089125.2089127 (englisch): “For example, based on 75 FLOSS projects, Capra et al. [2008] reported a high degree of openness in governance practices leads to higher software quality.”
+ Duncan Campbell: How NSA access was built into Windows. Telepolis, 4. September 1999, abgerufen am 3. Dezember 2011 (englisch): „Careless mistake reveals subversion of Windows by NSA.“
+ J Mark Lytle: Microsoft denies NSA backdoor in Windows 7. techradar.com, 22. November 2009, abgerufen am 3. Dezember 2011 (englisch): „US National Security Agency did, however, work on the new OS“
+ Chuck Connell: Open Source Projects Manage Themselves? Dream on. (englisch) Stand: Juni 2008
+ Roles auf Mozilla.org “The ultimate decision-maker(s) are trusted members of the community who have the final say in the case of disputes. This is a model followed by many successful open source projects, although most of those communities only have one person in this role, and they are sometimes called the ‘benevolent dictator’. Mozilla has evolved to have two people in this role – Brendan Eich has the final say in any technical dispute and Mitchell Baker has the final say in any non-technical dispute.” (englisch)
+ Matt Asay: Open Source’s Cult Of Personality Is Dying—Thankfully. readwrite.com, 2. Mai 2014, abgerufen am 18. Juni 2015 (englisch).
+ Richard Morris: Niklaus Wirth: Geek of the Week. simple-talk.com, 2. Juli 2009, abgerufen am 16. Dezember 2009 (englisch): „Besides all the good things, the open source movement ignores and actually hinders the perception of one of the most important ideas in designing complex systems, namely their partitioning in modules, and their formation as an orderly hierarchy of modules.“
+ Wir sprechen von Freier Software – ein Statement der Free Software Foundation Europe
+ Warum Freie Software besser ist als Open Source Stand: 2007, Statement des GNU-Projekts
+ Richard Stallman: Warum Open Source das Ziel von Freie Software verfehlt. Stand: 2010
+ Oliver Diedrich: Streit um die neue GPL. heise.de, 2006
+ Torvalds on Tivoisation (englisch)
+ Lilli Iliev: Allmende statt Open Everything. Ein Gastbeitrag von Silke Helfrich. Wikimedia Deutschland Blog. In: blog.wikimedia.de. 24. April 2020, abgerufen am 26. Januar 2022.
+ David A. Wheeler: FLOSS License Proliferation: Still a problem. (englisch)
+ Ed Burnette: Google says no to license proliferation. 2. November 2006, archiviert vom Original am 24. Februar 2007; abgerufen am 11. September 2010 (englisch).
+ Greg Stein: Standing Against License Proliferation. 28. Mai 2009, archiviert vom Original am 1. Juni 2008; abgerufen am 11. September 2010 (englisch).
+ MPL 1.1 FAQ – Historical Use Only. Mozilla Foundation, 1. Februar 2012, abgerufen am 26. Februar 2012 (englisch).
+ Philippe Laurent: The GPLv3 and compatibility issues. (PDF) In: European Open source Lawyers Event 2008. University of Namur – Belgium, 24. September 2008, S. 7, archiviert vom Original am 4. März 2016; abgerufen am 6. März 2020 (englisch): „Copyleft is the main source of compatibility problems“
+ Frequently Asked Questions about the GNU Licenses – Is GPLv3 compatible with GPLv2? gnu.org, abgerufen am 3. Juni 2014 (englisch): „No. Some of the requirements in GPLv3, such as the requirement to provide Installation Information, do not exist in GPLv2. As a result, the licenses are not compatible: if you tried to combine code released under both these licenses, you would violate section 6 of GPLv2. However, if code is released under GPL ‘version 2 or later’, that is compatible with GPLv3 because GPLv3 is one of the options it permits.“
+ Marcus D. Hanwell: Should I use a permissive license? Copyleft? Or something in the middle? opensource.com, 28. Januar 2014, abgerufen am 30. Mai 2015 (englisch): „Permissive licensing simplifies things One reason the business world, and more and more developers […], favor permissive licenses is in the simplicity of reuse. The license usually only pertains to the source code that is licensed and makes no attempt to infer any conditions upon any other component, and because of this there is no need to define what constitutes a derived work. I have also never seen a license compatibility chart for permissive licenses; it seems that they are all compatible.“
+ Licence Compatibility and Interoperability. In: Open-Source Software – Develop, share, and reuse open source software for public administrations. joinup.ec.europa.eu, archiviert vom Original am 17. Juni 2015; abgerufen am 6. März 2020 (englisch): „The licences for distributing free or open source software (FOSS) are divided in two families: permissive and copyleft. Permissive licences (BSD, MIT, X11, Apache, Zope) are generally compatible and interoperable with most other licences, tolerating to merge, combine or improve the covered code and to re-distribute it under many licences (including non-free or ‘proprietary’).“
+Normdaten (Sachbegriff): GND: 4548264-0 (GND Explorer, lobid, OGND)
+Kategorien: Freie SoftwareFLOSS-KulturUrheberrechtFreies WissenOpen Science
+Diese Seite wurde zuletzt am 28. April 2025 um 15:28 Uhr bearbeitet.
+Abrufstatistik · Autoren
+
+Der Text ist unter der Lizenz „Creative-Commons Namensnennung – Weitergabe unter gleichen Bedingungen“ verfügbar; Informationen zu den Urhebern und zum Lizenzstatus eingebundener Mediendateien (etwa Bilder oder Videos) können im Regelfall durch Anklicken dieser abgerufen werden. Möglicherweise unterliegen die Inhalte jeweils zusätzlichen Bedingungen. Durch die Nutzung dieser Website erklären Sie sich mit den Nutzungsbedingungen und der Datenschutzrichtlinie einverstanden.
+
+Wikipedia® ist eine eingetragene Marke der Wikimedia Foundation Inc.
+DatenschutzÜber WikipediaImpressumVerhaltenskodexEntwicklerStatistikenStellungnahme zu CookiesMobile Ansicht
+Wikimedia Foundation
+Powered by MediaWiki
